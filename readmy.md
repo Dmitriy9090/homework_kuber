@@ -2,3 +2,5 @@
 
 ### <span style="color:orange">1. Необходимо запустить под в пространстве имен, отличном от default, добавить тег поду.
 > Создаем пространство имен с помощью команды: **kubectl create namespace homework**
+
+> Запускаем под в пространстве имен "homework" при помощи yaml-файла (pod.yaml) - используем команду kubectl apply -f pod.yaml
