@@ -6,4 +6,4 @@
 > Запускаем под в пространстве имен "homework" при помощи yaml-файла (pod.yaml) - используем команду **kubectl apply -f pod.yaml**. Проверяем что pod запустился и имеет метку "homework" - командой **kubectl get pod --show-labels -n homework**
 
 ### <span style="color:orange"> 2. Cоздать RS с таким же тегом и в том же пространстве имен.
-> Запускаем replicaset в пространстве имен "homework" при помощи yaml-файла (rs.yaml) - используем команду **kubectl apply -f repset.yaml**
+> Запускаем replicaset в пространстве имен "homework" при помощи yaml-файла (rs.yaml) - используем команду **kubectl apply -f repset.yaml**. Так же ранее созданный под wordpress вошел в replicaset.
